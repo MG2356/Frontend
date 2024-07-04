@@ -1,0 +1,44 @@
+#heading{
+    margin-left: 2vh;
+    padding: 10px;
+}
+#product-container{
+    margin-left: -10vh;
+    margin-top: -5vh;
+}
+.prod-cta{
+    display: flex;
+}
+#filter{
+    margin-left: 150vh;
+    margin-top: -14vh;
+}
+#sort{
+    margin-top: -14vh;
+
+}
+@media screen and (max-width: 900px) {
+#heading{
+    padding-top: 7vh;
+}
+#product-container{
+    margin-left: -11vh;
+}
+#searchbar{
+    padding: 10vh;
+}
+
+#sort{
+    margin-top: -24vh;
+    position: absolute;
+    margin-left: 3vh;
+    padding-top: 1vh;
+
+}
+#filter{
+    margin-left: 0vh;
+    position: absolute;
+    margin-left: 3vh;
+    padding-top: -1vh;
+}
+}
