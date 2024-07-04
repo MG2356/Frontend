@@ -21,7 +21,7 @@ const Navbar = () => {
         </li>
       </ul> */}
       <div className="logo">
-          <Link to='/'>
+          <Link to='/Home'>
             <span >ShopSmart</span>
           </Link>
         </div>

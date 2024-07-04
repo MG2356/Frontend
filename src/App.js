@@ -24,12 +24,12 @@ const App = () => {
             <Navbar />
             {/* <Banner /> */}
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/Home" element={<Home />} />
               <Route path="/cart" element={<Cart />} />
               <Route path="/product/:id" element={<ProductDetails />} />
               <Route path="/shop" element={<Shop />} />
               <Route path="/order" element={<Order />} />
-              <Route path="/login" element={<Login />} />
+              <Route path="/" element={<Login />} />
               <Route path='/forgotpassword'  element={<ForgotPasswordForm/>} />
               <Route path='/register'  element={<Register/>} />
 
