@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../Style.css';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -15,43 +16,43 @@ const Navbar = () => {
       </form>
       <input type="checkbox" id="switch-mode" hidden />
       <label htmlFor="switch-mode" className="switch-mode"></label>
-      <a href="#" className="profile">
+      <Link to="#" className="profile">
         <img src="people.jpg" alt="profile" />
-      </a>
+      </Link>
         <section id="sidebar">
-        <a href="#" className="brand">
+        <Link to="#" className="brand">
           <i className="bx bxs-smile"></i>
           <span className="text" style={{ fontSize: "0.9rem" }}>
             {/* <span className="welcome-1">Welcome {username}</span> */}
           </span>
-        </a>
+        </Link>
         <ul className="side-menu top">
           <li className="active">
-            <a href='/'>
+            <Link to='/'>
               <i className="bx bxs-dashboard"></i>
               <span className="text">Add Product</span>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href='/edit'>
+            <Link to='/edit'>
               <i className="bx bxs-doughnut-chart"></i>
               <span className="text">Edit Product</span>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href='/users'>
+            <Link to='/users'>
               <i className="bx bxs-group"></i>
               <span className="text">Users</span>
-            </a>
+            </Link>
           </li>
         </ul>
         <ul className="side-menu">
         
           <li>
-            <a href="login.html" className="logout">
+            <Link to="login.html" className="logout">
               <i className="bx bxs-log-out-circle"></i>
               <span className="text">Logout</span>
-            </a>
+            </Link>
           </li>
         </ul>
       </section>
