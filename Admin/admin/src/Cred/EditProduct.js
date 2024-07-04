@@ -1,6 +1,7 @@
 import React, { useContext, useState,useEffect } from "react";
+// import { cartContext } from "../../GlobalState/CartContext";
+import { Link } from "react-router-dom";
 // import { productsContext } from "../../GlobalState/ProductsContext";
-import { Link } from 'react-router-dom'
 
 // import './Product.css';
 import { Container, InputAdornment, TextField, Typography, MenuItem, Select, FormControl, InputLabel } from "@mui/material";

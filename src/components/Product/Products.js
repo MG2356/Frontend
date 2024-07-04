@@ -46,7 +46,7 @@ const Products = () => {
           <Select value={filter} onChange={handleFilterChange} label="Filter">
             <MenuItem value="">All</MenuItem>
             <MenuItem value="Men">Men</MenuItem>
-            <MenuItem value="Men">Women</MenuItem>
+            <MenuItem value="Women">Women</MenuItem>
             <MenuItem value="Shoe">Shoe</MenuItem>
 
             {/* Add more filter options as needed */}

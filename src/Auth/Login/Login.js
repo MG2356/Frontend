@@ -25,7 +25,7 @@ const Login = () => {
   useEffect(() => {
     let auth = localStorage.getItem('Authorization');
     if (auth) {
-      navigate("/shop")
+      navigate("/Home")
     }
   }, [])
   const handleSubmit = (e) => {
@@ -35,12 +35,12 @@ const Login = () => {
       .then(result => {
         console.log("result", result);
         if (result.data) {
-          navigate("/shop")
-
+          navigate("/Home")
+          alert("Successfully")
         }
 
       })
-      .catch(() => console.log('Invalid Credentials'));
+      .catch(() => alert('Invalid Credentials'));
   };
 
 

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Style.css';
 import EditProduct from './Cred/EditProduct';
 import { Link } from 'react-router-dom'
+import profile from './Assest/people.jpg'
 
 const Edit = () => {
 
@@ -22,7 +23,7 @@ const Edit = () => {
       <input type="checkbox" id="switch-mode" hidden />
       <label htmlFor="switch-mode" className="switch-mode"></label>
       <Link to="#" className="profile">
-        <img src="people.jpg" alt="profile" />
+        <img src={profile} alt="profile" />
       </Link>
         <section id="sidebar">
         <Link to="#" className="brand">
@@ -33,7 +34,7 @@ const Edit = () => {
         </Link>
         <ul className="side-menu top">
           <li>
-            <Link to='/'>
+            <Link to='/AdminHome'>
               <i className="bx bxs-dashboard"></i>
               <span className="text">Add Product</span>
             </Link>
