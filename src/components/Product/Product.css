@@ -10,11 +10,11 @@
     display: flex;
 }
 #filter{
-    margin-left: 150vh;
-    margin-top: -14vh;
+    margin-left: 158vh;
+    margin-top: -16vh;
 }
 #sort{
-    margin-top: -14vh;
+    margin-top: -16vh;
 
 }
 @media screen and (max-width: 900px) {
