@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import AdminDashboard from './AdminDashboard'
-import Sidebar from "./Sidebar";
-import Navbar from "./Navbar/Navbar";
+import Navbar from "../Navbar/Navbar";
 function AdminHome() {
   const [isLoading, setIsLoading] = useState(true);
 

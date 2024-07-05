@@ -35,7 +35,7 @@ const Login = () => {
               type="email" 
               id="email" 
               className="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" 
-              placeholder="Enter this Email is munish@gmail.com" 
+              placeholder="Emailis munish@gmail.com" 
               value={email} 
               onChange={(e) => setEmail(e.target.value)} 
               required 
@@ -47,7 +47,7 @@ const Login = () => {
               type="password" 
               id="password" 
               className="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" 
-              placeholder="Enter this Password is 1234" 
+              placeholder="Enter Password is 1234" 
               value={password} 
               onChange={(e) => setPassword(e.target.value)} 
               required 

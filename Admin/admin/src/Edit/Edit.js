@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './Style.css';
-import EditProduct from './Cred/EditProduct';
+import '../Style.css';
+import EditProduct from '../Cred/EditProduct';
 import { Link } from 'react-router-dom'
-import profile from './Assest/people.jpg'
+import profile from '../Assest/people.jpg'
 
 const Edit = () => {
 
