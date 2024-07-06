@@ -73,7 +73,11 @@ nav ul .nav-links:hover:after {
 .nav-icon:not(:last-child) {
     font-size: 29px;
 }
-
+#qty{
+    margin-top: -5vh;
+    margin-left: 3vh;
+    position: relative;
+}
 @media screen and (max-width: 900px) {
 
 

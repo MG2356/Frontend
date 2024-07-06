@@ -34,7 +34,8 @@ const MobileNavigation = () => {
                 <Link to='/cart' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} >
                     <div className='links'>
                         <Badge  >
-                            <AiOutlineShoppingCart style={{ fontSize: 23 }} /> <span >{qty}</span>
+                            <AiOutlineShoppingCart style={{ fontSize: 23 }} /> <span id="qty-1" className=" bg-black text-xs w-5 h-5 flex 
+                    justify-center items-center animate-bounce rounded-full text-white">{qty}</span>
                         </Badge>
 
 

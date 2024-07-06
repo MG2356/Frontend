@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { cartContext } from "../../GlobalState/CartContext";
 import { Link } from "react-router-dom";
 import { productsContext } from "../../GlobalState/ProductsContext";
+import { toast } from "react-hot-toast";
 
 import './Product.css';
 import { Container, InputAdornment, TextField, Typography, MenuItem, Select, FormControl, InputLabel } from "@mui/material";
@@ -107,7 +108,11 @@ const Products = () => {
                     id: product._id,
                     product,
                   });
-                }}
+                  
+
+                }
+              
+              }
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

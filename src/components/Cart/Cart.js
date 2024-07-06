@@ -31,10 +31,7 @@ const Cart = () => {
               <div className="prod-cta">
               <Icon name="plus"onClick={() => dispatch(increment(product.id))}
  />
-              {/* <i
-                  className="fas fa-plus"
-                  onClick={() => dispatch(increment(product.id))}
-                ></i> */}
+          
                 <span className="cart-quantity">{product.qty}</span>
                 <Icon name="minus"onClick={() => dispatch(decrement(product.id))}/>
                 {/* <i
@@ -68,7 +65,7 @@ const Cart = () => {
             <div className="total-price-section">
               <div className="title">Total Price</div>
               <div className="items-price">${totalPrice}.00</div>
-            </div>
+            </div>                  
             <div className="stripe-section">
               <StripeCheckout
                 stripeKey="pk_test_51I2rmvG1SGhtxvtXhcM6ojfL5EknI0UiE5jqQedC0gFL6vAImspnRjomUXpZPgZuDRngSKBMSBG4GpibRC4crPZa00O1pb58yO"

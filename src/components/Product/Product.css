@@ -10,7 +10,7 @@
     display: flex;
 }
 #filter{
-    margin-left: 158vh;
+    margin-left: 160vh;
     margin-top: -16vh;
 }
 #sort{
@@ -22,7 +22,8 @@
     padding-top: 7vh;
 }
 #product-container{
-    margin-left: -11vh;
+    margin-left: -25vh;
+    width: 100vh;
 }
 #searchbar{
     padding: 10vh;
@@ -41,4 +42,10 @@
     margin-left: 3vh;
     padding-top: -1vh;
 }
+
+
+
+
+
+
 }

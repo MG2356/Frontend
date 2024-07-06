@@ -52,8 +52,9 @@ const Navbar = () => {
             <li className="nav-links">
               <Tooltip title='Wishlist'>
               <Link to="/cart">              
-                <span className='nav-icon-span' >  <Badge> <AiOutlineShoppingCart className='nav-icon' /></Badge>Cart </span>
-                <span >{qty}</span>
+                <span className='nav-icon-span' >  <Badge> <AiOutlineShoppingCart className='nav-icon' /></Badge> </span>
+                <span id="qty" className=" bg-blue-600 text-xs w-5 h-5 flex 
+                    justify-center items-center animate-bounce rounded-full text-white">{qty}</span>
                 </Link>
               </Tooltip>
             </li>
